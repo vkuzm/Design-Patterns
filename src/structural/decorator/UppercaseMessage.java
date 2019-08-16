@@ -1,4 +1,4 @@
-package structural.decoration;
+package structural.decorator;
 
 public class UppercaseMessage extends MessageDecorator {
     public UppercaseMessage(Message message) {

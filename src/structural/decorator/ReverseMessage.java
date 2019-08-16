@@ -1,4 +1,4 @@
-package structural.decoration;
+package structural.decorator;
 
 import java.util.ArrayList;
 import java.util.Collections;

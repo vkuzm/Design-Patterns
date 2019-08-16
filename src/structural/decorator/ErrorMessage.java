@@ -1,6 +1,6 @@
-package structural.decoration;
+package structural.decorator;
 
-import static structural.decoration.Colors.ANSI_RESET;
+import static structural.decorator.Colors.ANSI_RESET;
 
 public class ErrorMessage extends MessageDecorator{
     public ErrorMessage(Message message) {

@@ -1,4 +1,4 @@
-package structural.decoration;
+package structural.decorator;
 
 public class MessageSystem implements Message {
 
