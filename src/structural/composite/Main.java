@@ -8,8 +8,8 @@ public class Main {
         unitComposite.addUnit(new Soldier("Machine gunner"));
         unitComposite.addUnit(new Soldier("Machine gunner 2"));
         unitComposite.addUnit(new Soldier("Rocket launcher"));
-        unitComposite.addUnit(new Soldier("T-156"));
-        unitComposite.addUnit(new Soldier("Tiger"));
+        unitComposite.addUnit(new Tank("T-156"));
+        unitComposite.addUnit(new Tank("Tiger"));
         unitComposite.addUnit(new Soldier("Sniper"));
         unitComposite.addUnit(new Soldier("Sniper 2"));
 
