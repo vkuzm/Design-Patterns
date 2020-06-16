@@ -16,7 +16,7 @@ public class Main {
         chatRoom.addUser(user4);
 
         user1.send("Hi, Alex! What's up?", 3);
-        user3.send("Hi, Peter! Everything okay!", 1);
+        user3.send("Hi, Peter! Everything okay!", 4);
 
     }
 }

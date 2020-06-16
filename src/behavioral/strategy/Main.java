@@ -5,20 +5,19 @@ public class Main {
 
         // Translates words: Bear, Cat, Wolf, Dog
         // From english to other languages
-
         TranslatorContext translator = new TranslatorContext();
 
-        // To germany
+        System.out.println("to Germany");
         translator.setLanguage(new TranslateToGermany());
         translator.translate("Bear");
         translator.translate("Cat");
 
-        // To spanish
+        System.out.println("\nto Spanish");
         translator.setLanguage(new TranslateToSpanish());
         translator.translate("Wolf");
         translator.translate("Dog");
 
-        // To japanese
+        System.out.println("\nto Japanese");
         translator.setLanguage(new TranslateToJapanese());
         translator.translate("Bear");
         translator.translate("Cat");

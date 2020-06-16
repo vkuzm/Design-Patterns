@@ -15,7 +15,8 @@ public class FilterLength implements Filter {
             System.out.println("Chars of the text must be bigger then 15!");
 
         } else if (nextFilter != null) {
-            nextFilter.process(text);
+            //nextFilter.process(text);
+            System.out.println("Text is correct");
         }
     }
 }
