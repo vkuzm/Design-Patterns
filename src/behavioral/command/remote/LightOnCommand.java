@@ -1,4 +1,4 @@
-package behavioral.command;
+package behavioral.command.remote;
 
 public class LightOnCommand implements RemoteCommand {
     private final Light light;

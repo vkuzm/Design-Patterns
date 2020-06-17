@@ -1,4 +1,4 @@
-package behavioral.command;
+package behavioral.command.remote;
 
 public class TVOnCommand implements RemoteCommand {
     private TV tv;

@@ -1,4 +1,4 @@
-package behavioral.command;
+package behavioral.command.remote;
 
 public class Main {
     public static void main(String[] args) {
