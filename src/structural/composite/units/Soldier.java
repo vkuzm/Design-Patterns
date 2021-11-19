@@ -1,4 +1,4 @@
-package structural.composite;
+package structural.composite.units;
 
 public class Soldier implements Unit{
     private final String name;

@@ -5,7 +5,7 @@ public abstract class FindRoute {
     public String to;
     public int distance;
 
-    public final void init(String from, String to) {
+    public void init(String from, String to) {
         this.from = from;
         this.to = to;
 
@@ -13,13 +13,18 @@ public abstract class FindRoute {
         calculateDistance();
         printResult();
 
-        //
         System.out.println("\n");
     }
 
-    abstract void findRoute();
-
+    abstract String getName();
     abstract void calculateDistance();
 
-    abstract void printResult();
+    public void findRoute() {
+        System.out.println("Searching the route to " + this.to + "...");
+    }
+
+    public void printResult() {
+        System.out.println("Found the route for a " + this.getName() + " from " + from + " to " + to);
+        System.out.println("Distance: " + this.distance + " miles");
+    }
 }

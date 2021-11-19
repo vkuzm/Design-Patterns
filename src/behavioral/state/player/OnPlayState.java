@@ -1,11 +1,11 @@
-package behavioral.state;
+package behavioral.state.player;
 
-public class OnPauseState implements PlayerState{
+public class OnPlayState implements PlayerState {
 
     private AudioPlayer audioPlayer;
 
     {
-        System.out.println("STATUS: Music is paused");
+        System.out.println("STATUS: Music is playing");
     }
 
     @Override
@@ -20,7 +20,7 @@ public class OnPauseState implements PlayerState{
 
     @Override
     public void pause() {
-        System.out.println("Music is already paused");
+        audioPlayer.setState(new OnPauseState());
     }
 
     @Override
@@ -30,11 +30,11 @@ public class OnPauseState implements PlayerState{
 
     @Override
     public void next() {
-        System.out.println("Locket...");
+        audioPlayer.nextTrack();
     }
 
     @Override
     public void prev() {
-        System.out.println("Locket...");
+        audioPlayer.previousTrack();
     }
 }

@@ -4,7 +4,7 @@ public class Main {
 
   public static void main(String[] args) {
 
-    // Sender
+    // Sender / Invoker
     Client client = new Client("Peter");
 
     // Receiver

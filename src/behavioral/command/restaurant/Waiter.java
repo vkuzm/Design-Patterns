@@ -13,7 +13,7 @@ public class Waiter implements RemoteCommand {
   }
 
   @Override
-  public void makeOrder() {
+  public void execute() {
     chef.prepareFood(food);
   }
 }

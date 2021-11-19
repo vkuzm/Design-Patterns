@@ -1,4 +1,4 @@
-package structural.composite;
+package structural.composite.units;
 
 public interface Unit {
     void attack();

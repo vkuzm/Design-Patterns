@@ -1,4 +1,4 @@
-package structural.composite;
+package structural.composite.units;
 
 public class Tank implements Unit{
     private final String name;

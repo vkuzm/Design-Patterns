@@ -11,6 +11,5 @@ public class Main {
 
     FindRoute findWalkRoute = new WalkRoute();
     findWalkRoute.init("London", "Paris");
-
   }
 }

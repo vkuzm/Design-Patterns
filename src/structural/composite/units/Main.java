@@ -1,4 +1,4 @@
-package structural.composite;
+package structural.composite.units;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {

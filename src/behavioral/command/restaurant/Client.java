@@ -13,6 +13,6 @@ public class Client {
   }
 
   public void makeOrder() {
-    command.makeOrder();
+    command.execute();
   }
 }
